@@ -22,3 +22,5 @@ $(call inherit-product, device/samsung/klte/full_klte.mk)
 
 PRODUCT_DEVICE := klte
 PRODUCT_NAME := lineage_klte
+
+$(call inherit-product, vendor/divested/build/target/product/lowram.mk)
